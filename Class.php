@@ -7,15 +7,15 @@
       <?php
       class Person {
         public static function say(){
-            echo "Here are my thoughts ";
+            echo "Umur Saya Adalah ";
         }   
       }
       class Blogger extends Person {
-        const ant = 50;
-        const cats = 50;
+        const satu = 50;
+        const dua = 20;
       }
       Blogger::say();
-      echo Blogger::cats;
+      echo Blogger::dua;
       ?>
       
     </p>
